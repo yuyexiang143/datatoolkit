@@ -1,0 +1,14 @@
+[project]
+name = "data-toolkit-portfolio"
+version = "1.0.0"
+description = "Excel and CSV cleaning, merging, and summary reporting tool"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0,<3.0",
+  "openpyxl>=3.1,<4.0",
+  "xlrd>=2.0,<3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,11 @@
+.venv/
+.deps/
+.wheels/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+output/
+*.log
+
+pytest-of-*/
+_t*.txt
